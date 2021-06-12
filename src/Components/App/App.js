@@ -63,7 +63,7 @@ class App extends React.Component {
 
   updatePlaylistName(name) {
     this.setState({
-      playlistName = name
+      playlistName: name
     })
   }
 
