@@ -4,15 +4,11 @@ import './Track.css';
 class Track extends React.Component {
 
     renderAction() {
-        let symbol;
-
-        if (!isRemoval) {
-            symbol = '-';
+        if (this.props.isRemoval) {
+            return <button className="Track-action">-</button>
         } else {
-            symbol = '+';
+            return <button className="Track-action">+</button>
         }
-
-        return symbol;
     }
 
     render() {
@@ -22,7 +18,7 @@ class Track extends React.Component {
                     {/* <h3><!-- track name will go here --></h3>
                     <p><!-- track artist will go here--> | <!-- track album will go here --></p> */}
                 </div>
-                <button className="Track-action">{this.renderAction()}</button>
+                {this.renderAction()}
             </div>
         )
     }
