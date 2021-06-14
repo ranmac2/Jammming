@@ -69,7 +69,12 @@ class App extends React.Component {
   }
 
   savePlaylist() {
+    alert("this message is linked");
     const trackUris = this.state.playlistTracks.map(track => track.uri);
+  }
+
+  search(term) {
+    console.log(term);
   }
 
 
@@ -89,7 +94,7 @@ class App extends React.Component {
             playlistTracks={this.state.playlistTracks} 
             onRemove={this.removeTrack} 
             onNameChange={this.updatePlaylistName} 
-            onSaved={this.savePlaylist}
+            onSave={this.savePlaylist}
             />
           </div>
         </div>
