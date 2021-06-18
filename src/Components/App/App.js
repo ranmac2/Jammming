@@ -1,5 +1,7 @@
 import React from 'react';
+
 import './App.css';
+
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Playlist from '../Playlist/Playlist';
@@ -14,6 +16,7 @@ class App extends React.Component {
       playlistName: 'My Playlist',
       playlistTracks: []
     };
+
     this.addTrack = this.addTrack.bind(this);
     this.removeTrack = this.removeTrack.bind(this);
     this.updatePlaylistName = this.updatePlaylistName.bind(this);
@@ -41,10 +44,11 @@ class App extends React.Component {
   updatePlaylistName(name) {
     this.setState({
       playlistName: name
-    })
+    });
   }
 
   savePlaylist() {
+    alert('This message is linked to button');
     const trackUris = this.state.playlistTracks.map(track => track.uri);
     Spotify.savePlaylist(this.state.playlistName, trackUris).then(() => {
       this.setState({
