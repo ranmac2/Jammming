@@ -73,7 +73,7 @@ const Spotify = {
                     headers: headers,
                     method: 'POST',
                     body: JSON.stringify({ uris: trackUris })
-                })
+                });
             })
         })
     }

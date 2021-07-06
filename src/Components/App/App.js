@@ -13,7 +13,7 @@ class App extends React.Component {
 
     this.state = {
       searchResults: [],
-      playlistName: 'My Playlist',
+      playlistName: 'New Playlist',
       playlistTracks: []
     };
 
@@ -42,20 +42,17 @@ class App extends React.Component {
   }
 
   updatePlaylistName(name) {
-    this.setState({
-      playlistName: name
-    });
+    this.setState({ playlistName: name });
   }
 
   savePlaylist() {
-    alert('This message is linked to button');
     const trackUris = this.state.playlistTracks.map(track => track.uri);
     Spotify.savePlaylist(this.state.playlistName, trackUris).then(() => {
       this.setState({
         playlistName: 'New Playlist',
         playlistTracks: []
-      })
-    })
+      });
+    });
   }
 
   search(term) {
@@ -71,7 +68,8 @@ class App extends React.Component {
         <h1>Ja<span className="highlight">mmm</span>ing</h1>
         <div className="App">
           <SearchBar 
-          onSearch={this.search} />
+          onSearch={this.search} 
+          />
           <div className="App-playlist">
             <SearchResults 
             searchResults={this.state.searchResults} 
