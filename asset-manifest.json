@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/jammming/static/css/main.6f6ac7bf.chunk.css",
-    "main.js": "/jammming/static/js/main.76cca3eb.chunk.js",
-    "main.js.map": "/jammming/static/js/main.76cca3eb.chunk.js.map",
-    "runtime-main.js": "/jammming/static/js/runtime-main.4812fa13.js",
-    "runtime-main.js.map": "/jammming/static/js/runtime-main.4812fa13.js.map",
-    "static/js/2.7d1b00d2.chunk.js": "/jammming/static/js/2.7d1b00d2.chunk.js",
-    "static/js/2.7d1b00d2.chunk.js.map": "/jammming/static/js/2.7d1b00d2.chunk.js.map",
-    "static/js/3.ba82bce6.chunk.js": "/jammming/static/js/3.ba82bce6.chunk.js",
-    "static/js/3.ba82bce6.chunk.js.map": "/jammming/static/js/3.ba82bce6.chunk.js.map",
-    "index.html": "/jammming/index.html",
-    "static/css/main.6f6ac7bf.chunk.css.map": "/jammming/static/css/main.6f6ac7bf.chunk.css.map",
-    "static/js/2.7d1b00d2.chunk.js.LICENSE.txt": "/jammming/static/js/2.7d1b00d2.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/jammming/static/media/background_photo_desktop.fe3a0bed.jpg"
+    "main.css": "/Jammming/static/css/main.91e7e48c.chunk.css",
+    "main.js": "/Jammming/static/js/main.76cca3eb.chunk.js",
+    "main.js.map": "/Jammming/static/js/main.76cca3eb.chunk.js.map",
+    "runtime-main.js": "/Jammming/static/js/runtime-main.29d97b9a.js",
+    "runtime-main.js.map": "/Jammming/static/js/runtime-main.29d97b9a.js.map",
+    "static/js/2.7d1b00d2.chunk.js": "/Jammming/static/js/2.7d1b00d2.chunk.js",
+    "static/js/2.7d1b00d2.chunk.js.map": "/Jammming/static/js/2.7d1b00d2.chunk.js.map",
+    "static/js/3.ba82bce6.chunk.js": "/Jammming/static/js/3.ba82bce6.chunk.js",
+    "static/js/3.ba82bce6.chunk.js.map": "/Jammming/static/js/3.ba82bce6.chunk.js.map",
+    "index.html": "/Jammming/index.html",
+    "static/css/main.91e7e48c.chunk.css.map": "/Jammming/static/css/main.91e7e48c.chunk.css.map",
+    "static/js/2.7d1b00d2.chunk.js.LICENSE.txt": "/Jammming/static/js/2.7d1b00d2.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Jammming/static/media/background_photo_desktop.fe3a0bed.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4812fa13.js",
+    "static/js/runtime-main.29d97b9a.js",
     "static/js/2.7d1b00d2.chunk.js",
-    "static/css/main.6f6ac7bf.chunk.css",
+    "static/css/main.91e7e48c.chunk.css",
     "static/js/main.76cca3eb.chunk.js"
   ]
 }
